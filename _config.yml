@@ -1,4 +1,7 @@
-title: Interactive Stories by Double A
-description: 
+title: Double-A
+description:
 
 theme: jekyll-theme-minimal
+logo: /images/aa-icon.png
+
+github.is_user_page: false
