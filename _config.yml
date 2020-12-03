@@ -3,3 +3,5 @@ description:
 
 theme: jekyll-theme-minimal
 logo: /images/aa-logo.png
+
+github.is_user_page: false
