@@ -20,6 +20,7 @@ What will you do?
 
 \> [Life of the Party.](/games/life-of-the-party.html)
 
+<br style="clear:both">
 
 ## A Warm Place to Stay: Polar Bear Vore Interactive  🐻‍❄️/🐇
 
@@ -32,3 +33,5 @@ What will you do?
 You're a rabbit named Juniper Greenall. While you were driving your car from who-knows-where to who-knows-where, a huge snowstorm hit out of the blue. You swerved off the road, got a flat tire, and now your car is stranded underneath a huge pile of accumulating snow. All hope seems lost, until a chance encounter with a mild-mannered polar bear named Zasha leaves you with hope of rescue, plus a room for the night, and maybe even a new friend. Either that, or you'll be left as nothing but a steaming pile of bear shit.
 
 \> [A Warm Place to Stay.](/games/a-warm-place-to-stay.html)
+
+<br style="clear:both">
