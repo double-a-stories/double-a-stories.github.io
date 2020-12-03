@@ -8,11 +8,9 @@ This page hosts pieces of adult interactive fiction which may contain adult cont
 
 ## Life of the Party: A Furry Vore Adventure
 
-🐴🐻🐱🐶/🐇
-
 [<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/images/life-of-the-party.png">](/games/life-of-the-party.html)
 
-*Tags: Anthro pred, Oral vore, Unwilling, Willing, Fatal digestion, Scat, Oral sex, Nonbinary Protagonist, Female Pred, Male Pred*
+*Tags: Anthro pred, Oral vore, Unwilling, Willing, Fatal digestion, Scat, Oral sex, Nonbinary Protagonist, Female Pred, Male Pred* 🐴🐻🐱🐶/🐇
 
 ### Synopsis
 
@@ -26,11 +24,9 @@ What will you do?
 
 ## A Warm Place to Stay: Polar Bear Vore Interactive 
 
-🐻‍❄️/🐇
-
 [<img class="gameLogo" width="300" alt="A Warm Place to Stay Logo" src="/images/a-warm-place-to-stay.png">](/games/a-warm-place-to-stay.html)
 
-*Tags: Anthro pred, Oral vore, Anal Vore, Unwilling, Willing, Fatal digestion, Non-Fatal digestion, Scat*
+*Tags: Anthro pred, Oral vore, Anal Vore, Unwilling, Willing, Fatal digestion, Non-Fatal digestion, Scat* 🐻‍❄️/🐇
 
 ### Synopsis
 
