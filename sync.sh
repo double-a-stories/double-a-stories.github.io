@@ -3,7 +3,7 @@ FROM_DIR=~/Documents/Twine/Stories/
 TO_DIR=./games/
 
 # switch to 'indev' branch
-git checkout indev
+git checkout main
 
 # copy story html
 cp -fuv $FROM_DIR/'Life of the Party.html' $TO_DIR/life-of-the-party.html
