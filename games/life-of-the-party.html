@@ -149,7 +149,7 @@ body[data-tags~="otherstory"] {
 
 // Global Variable: "setup"
 window.setup = window.setup || {};
-setup.version = "v0.3.4"
+setup.version = "v0.3.5"
 
 // Move story styles to before the passages.
 // This prioritizes styles declared inside passages.
@@ -233,51 +233,90 @@ $(window).on('sm.passage.shown', () => {
 	}
 })
 
-// Keyboard Controls
-/* This spaghetti code simulates pressing Tab or Shift-Tab when the user presses Up/Down or W/S. */
-$(document).keydown(function(e) {
-  if(!$(e.target).is("input[type!='button'], [contenteditable]")
-    || ["arrowup","arrowdown"].includes(e.key.toLowerCase())
-  ) {
-      const $focusables = $("a, button, input, select, [tabindex]").filter(":visible");
-      const $focused = $("body :focus");
-      const index = $focusables.index($focused);
-      switch (e.key.toLowerCase()) {
-				case "enter":
-        case "e":
-          if ($focused[0]) {
-            $focused[0].click();
-          } else { 
-            $("tw-passage").find($focusables).eq(0).focus(); 
-          }
-          e.preventDefault();
-          break;
-        case "backspace":
-          setup.undo();
-          e.preventDefault();
-          break;
-        case "w":
-        case "arrowup":
-          if ($focused[0]) {
-						if (index - 1 >= 0) {
-						  $focusables.eq(index - 1).focus();
-						}
-          } else {
-						$("tw-passage").prevAll().find($focusables).eq(-1).focus();
-          }
-          e.preventDefault();
-          break;
-        case "s":
-        case "arrowdown":
-          if (index >= 0) {
+/*
+ * Keyboard Controls
+ */
+window.controls = window.controls || {}; {
+    controls.getFocusables = () => $("a[href], button, input, select, [tabindex]").filter(":visible");
+
+    controls.focusNext = () => {
+        const $focusables = controls.getFocusables();
+        let index = $focusables.index(document.activeElement);
+        if (index != -1) {
             $focusables.eq(index + 1).focus();
-          } else {
-						$("tw-passage").find($focusables).eq(0).focus();
-          }
-          e.preventDefault();
-          break;
-      }
-  }
+        } else {
+            if ($("tw-passage").find($focusables)[0]) {
+                $("tw-passage").find($focusables).first().focus();
+            } else {
+                $focusables.first().focus();
+            }
+        }
+    }
+    controls.focusPrev = () => {
+        const $focusables = controls.getFocusables();
+        let index = $focusables.index(document.activeElement);
+        if (index >= 0) {
+            $focusables.eq(index - 1).focus();
+        } else {
+            controls.focusNext();
+            controls.focusPrev();
+        }
+    }
+    controls.selectFocused = () => {
+        const $focusables = controls.getFocusables();
+        if ($focusables.index(document.activeElement) != -1) {
+            document.activeElement.click();
+        } else {
+            controls.focusNext();
+        }
+    }
+    controls.goNext = () => {
+        let p = passage.id;
+        if (!$(":focus")[0]) {
+            window.history.forward();
+        }
+        if (p == passage.id) {
+            controls.selectFocused();
+        }
+    }
+}
+$(document).keydown(function (e) {
+    if ($(e.target).is("input[type!='button'], [contenteditable]") &&
+        !e.key.startsWith("Arrow")) {
+        return;
+    }
+    switch (e.key.toLowerCase()) {
+        case "enter":
+        case "e":
+        case " ":
+            controls.selectFocused();
+            e.preventDefault();
+            break;
+        case "h":
+        case "a":
+        case "arrowleft":
+            setup.undo();
+            e.preventDefault();
+            break;
+        case "d":
+        case "l":
+        case "arrowright":
+            controls.goNext();
+            e.preventDefault();
+            break;
+        case "w":
+        case "k":
+        case "arrowup":
+            controls.focusPrev();
+            e.preventDefault();
+            break;
+        case "s":
+        case "j":
+        case "arrowdown":
+            controls.focusNext();
+            e.preventDefault();
+            break;
+    }
 });
 
 // Persistent Achievement API
@@ -1908,13 +1947,23 @@ Their voices become muffled as your ears are gulped into the horse&#39;s throat,
 
 \&gt; [[Become horse food.]]</tw-passagedata><tw-passagedata pid="158" name="Keyboard Controls" tags="" position="2717,372" size="100,100">In addition to pointer controls, this game can be played entirely through the keyboard, leaving your dominant hand free for other tasks, such as enjoying a sandwich, or sharing a &lt;a href=&quot;http://textadventures.co.uk/games/view/fcvdqsoz7u2edrju9wb6ba/life-of-the-party-a-furry-vore-adventure-18&quot; target=&quot;_blank&quot;&gt;link to this story&lt;/a&gt; with someone you think might like it.
 
-#### Keyboard Controls
+This game can be played with either mouse or keyboard controls.
 
-Use the ↑↓ arrow keys (or WASD) to navigate between links.
+#### Basic Navigation
 
-Press ⏎ enter (or E) to select a link.
+&#96;W (↑) &#96; *Select previous link.*
 
-\&gt; [[Go back.|Start]]</tw-passagedata><tw-passagedata pid="159" name="Basil: Digest." tags="" position="3720,5675" size="100,100">Basil pats his belly with a satisfied smile on his face, and takes a seat in a chair while his belly gurgles and groans with the telltale sounds of a digesting prey.
+&#96;S (↓)&#96; *Select next link.*
+
+&#96;E (⏎)&#96; *Use selected link.*
+
+#### Time Travel
+
+&#96;A (←)&#96; *Undo last command.*
+
+&#96;D (→)&#96; *Redo last command.*
+
+\&gt; &lt;a0 onclick=&quot;setup.undo()&quot;&gt;Go back.&lt;/a&gt;</tw-passagedata><tw-passagedata pid="159" name="Basil: Digest." tags="" position="3720,5675" size="100,100">Basil pats his belly with a satisfied smile on his face, and takes a seat in a chair while his belly gurgles and groans with the telltale sounds of a digesting prey.
 
 &quot;Yaaaaawn,&quot; he yawns, pressing and squeezing on his swollen gut as it slowly softens up, gradually dissolving whatever is left of the rabbit.
 
