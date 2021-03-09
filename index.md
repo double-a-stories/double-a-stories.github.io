@@ -1,12 +1,7 @@
 ---
-title: Games
 ---
 
-## Content Warning (18+)
-
-This page hosts pieces of adult interactive fiction which may contain adult content unsuitable for viewers under 18. If you are not willing to view such material, please exit or proceed at your discretion.
-
-## Life of the Party: A Furry Vore Adventure
+## Life of the Party
 
 [<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/life-of-the-party/logo.png">](https://double-a-stories.github.io/life-of-the-party/)
 
@@ -24,7 +19,7 @@ What will you do?
 
 <br style="clear:both">
 
-## A Warm Place to Stay: Polar Bear Vore Interactive
+## A Warm Place to Stay
 
 [<img class="gameLogo" width="300" alt="A Warm Place to Stay Logo" src="/a-warm-place-to-stay/logo.png">](https://double-a-stories.github.io/a-warm-place-to-stay/)
 
