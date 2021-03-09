@@ -8,7 +8,7 @@ This page hosts pieces of adult interactive fiction which may contain adult cont
 
 ## Life of the Party: A Furry Vore Adventure
 
-[<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/images/life-of-the-party.png">](/games/life-of-the-party.html)
+[<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/images/life-of-the-party.png">](https://double-a-stories.github.io/life-of-the-party/)
 
 *Tags: Anthro pred, Oral vore, Unwilling, Willing, Fatal digestion, Scat, Oral sex, Nonbinary Protagonist, Female Pred, Male Pred* 🐴🐻🐱🐶/🐇
 
@@ -18,13 +18,13 @@ Your name is Hollis. You are a small gray rabbit, standing meekly in the foyer o
 
 What will you do?
 
-\> [Life of the Party.](/games/life-of-the-party.html)
+\> [Life of the Party.](https://double-a-stories.github.io/life-of-the-party/)
 
 <br style="clear:both">
 
 ## A Warm Place to Stay: Polar Bear Vore Interactive 
 
-[<img class="gameLogo" width="300" alt="A Warm Place to Stay Logo" src="/images/a-warm-place-to-stay.png">](/games/a-warm-place-to-stay.html)
+[<img class="gameLogo" width="300" alt="A Warm Place to Stay Logo" src="/images/a-warm-place-to-stay.png">](https://double-a-stories.github.io/a-warm-place-to-stay/)
 
 *Tags: Anthro pred, Oral vore, Anal Vore, Unwilling, Willing, Fatal digestion, Non-Fatal digestion, Scat* 🐻‍❄️/🐇
 
@@ -32,6 +32,6 @@ What will you do?
 
 You're a rabbit named Juniper Greenall. While you were driving your car from who-knows-where to who-knows-where, a huge snowstorm hit out of the blue. You swerved off the road, got a flat tire, and now your car is stranded underneath a huge pile of accumulating snow. All hope seems lost, until a chance encounter with a mild-mannered polar bear named Zasha leaves you with hope of rescue, plus a room for the night, and maybe even a new friend. Either that, or you'll be left as nothing but a steaming pile of bear shit.
 
-\> [A Warm Place to Stay.](/games/a-warm-place-to-stay.html)
+\> [A Warm Place to Stay.](https://double-a-stories.github.io/a-warm-place-to-stay/)
 
 <br style="clear:both">
