@@ -8,7 +8,7 @@ This page hosts pieces of adult interactive fiction which may contain adult cont
 
 ## Life of the Party: A Furry Vore Adventure
 
-[<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/images/life-of-the-party.png">](https://double-a-stories.github.io/life-of-the-party/)
+[<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/life-of-the-party/logo.png">](https://double-a-stories.github.io/life-of-the-party/)
 
 *Tags: Anthro pred, Oral vore, Unwilling, Willing, Fatal digestion, Scat, Oral sex, Nonbinary Protagonist, Female Pred, Male Pred* 🐴🐻🐱🐶/🐇
 
@@ -22,9 +22,9 @@ What will you do?
 
 <br style="clear:both">
 
-## A Warm Place to Stay: Polar Bear Vore Interactive 
+## A Warm Place to Stay: Polar Bear Vore Interactive
 
-[<img class="gameLogo" width="300" alt="A Warm Place to Stay Logo" src="/images/a-warm-place-to-stay.png">](https://double-a-stories.github.io/a-warm-place-to-stay/)
+[<img class="gameLogo" width="300" alt="A Warm Place to Stay Logo" src="/a-warm-place-to-stay/logo.png">](https://double-a-stories.github.io/a-warm-place-to-stay/)
 
 *Tags: Anthro pred, Oral vore, Anal Vore, Unwilling, Willing, Fatal digestion, Non-Fatal digestion, Scat* 🐻‍❄️/🐇
 
