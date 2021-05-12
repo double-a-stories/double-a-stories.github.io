@@ -543,12 +543,12 @@ $(window).on('sm.passage.hidden sm.passage.shown', handleTwemoji);
 // Passages can disable this by adding the tag "no_fade"
 
 $(window).on('sm.passage.hidden', () => {
-  story.$passageEl.fadeTo(0, 0);
+  story.$passageEl.css({ opacity: 0 });
 })
 
 $(window).on('sm.passage.shown', (ev, { passage }) => {
   const noFade = passage.tags.some(tag => tag === "no_fade");
-  story.$passageEl.fadeTo(noFade ? 0 : "slow", 1);
+  story.$passageEl.animate({ opacity: 1 }, { duration: noFade ? 0 : "slow", queue: false });
 })
 /* twine-user-script #4: "header.js" */
 // LICENSE: MIT-0
@@ -843,7 +843,7 @@ setup.handleBroomCloset = () => {
 /* twine-user-script #10: "Misc story variables" */
 story.semanticVersion = [0, 5, 0, "-indev"];
 story.version = `v${story.semanticVersion.slice(0, 3).join(".")}${story.semanticVersion[3] || ""}`;
-story.sourceURL = "https://github.com/double-a-stories/life-of-the-party";</script><tw-tag name="vore" color="red"></tw-tag><tw-tag name="TODO" color="red"></tw-tag><tw-tag name="hide" color="blue"></tw-tag><tw-tag name="morning" color="yellow"></tw-tag><tw-tag name="todo" color="orange"></tw-tag><tw-passagedata pid="1" name="Achievements list" tags="" position="100,100" size="100,100">&lt;% const achievements = setup.getAchievements().sort();
+story.sourceURL = "https://github.com/double-a-stories/life-of-the-party";</script><tw-tag name="TODO" color="red"></tw-tag><tw-tag name="hide" color="blue"></tw-tag><tw-tag name="morning" color="yellow"></tw-tag><tw-tag name="todo" color="orange"></tw-tag><tw-tag name="vore" color="red"></tw-tag><tw-passagedata pid="1" name="Achievements list" tags="" position="100,100" size="100,100">&lt;% const achievements = setup.getAchievements().sort();
    const story_max_achievements = 9; // TODO: change me!
 %&gt;
 
