@@ -1,6 +1,12 @@
 ---
 ---
 
+## Links to my profiles elsewhere
+
+* Furaffinity.net: <https://www.furaffinity.net/user/double-a/>
+* Eka's Portal: <https://aryion.com/g4/user/DoubleA>
+* textadventures.co.uk: <http://textadventures.co.uk/user/view/ijksmi-7ckcj4lgnswv0mw/doubleanalogue>
+* Ko-Fi: <https://ko-fi.com/doublea>
 ## Life of the Party
 
 [<img class="gameLogo" width="300" alt="Life of the Party Logo" src="/life-of-the-party/logo.png">](https://double-a-stories.github.io/life-of-the-party/)
@@ -13,9 +19,20 @@ Your name is Hollis. You are a small gray rabbit, standing meekly in the foyer o
 
 What will you do?
 
-\> [Life of the Party.](https://double-a-stories.github.io/life-of-the-party/)
+\> [Play at github.io](https://double-a-stories.github.io/life-of-the-party/)
+
+\> [Play at textadventures.co.uk](https://textadventures.co.uk/games/view/fcvdqsoz7u2edrju9wb6ba/) *(Mirror. Requires sign-in.)*
+
+\> [Releases](https://github.com/double-a-stories/life-of-the-party/releases)
 
 \> <a href="https://double-a-stories.github.io/life-of-the-party/" download="Life of the Party by Double-A.html">Download</a>
+
+### Threads
+
+* [FurAffinity.net](https://www.furaffinity.net/view/42991202/) *(Gallery post)*
+* [Aryion.com](https://aryion.com/forum/viewtopic.php?f=79&t=59177) *(Discussion thread)*
+* [Textadventures.co.uk](https://textadventures.co.uk/games/view/fcvdqsoz7u2edrju9wb6ba/) *(Reviews)*
+* [voreda.live](https://voreda.live/game.php?id=49) *(Reviews)*
 
 <br style="clear:both">
 
