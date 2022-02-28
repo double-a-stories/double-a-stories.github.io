@@ -1,4 +1,5 @@
 ---
+title: Home
 ---
 
 ## Links to my profiles elsewhere
