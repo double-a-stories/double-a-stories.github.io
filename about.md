@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About
 ---
 
 ## Links to my profiles elsewhere
